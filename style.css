@@ -1,0 +1,59 @@
+.personagens-container-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top:50px;
+    flex-wrap: wrap;
+  }
+  .texto-personagens {
+    display: flex;
+    align-items: center;
+    width: 45rem;
+    height: 55rem;
+    flex-direction: column;
+  }
+  
+  .imagens-personagens {
+    width: 55rem;
+    height: 55rem;
+    border: 1px solid rgba(207, 204, 1, 0.466);
+    border-radius: 500rem;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition:1s; */
+    margin-bottom: 5rem;
+  }
+  
+  #personagens-jogadores {
+    width: 115%;
+    height: 115%;
+    object-fit: contain;
+  }
+
+  @media only screen and (max-height:800px) {
+    .imagens-personagens {
+        width: 35rem;
+        height: 35rem;
+    }
+    .texto-personagens {
+        display: flex;
+        align-items: center;
+        width: 30rem;
+        height: 30rem;
+        flex-direction: column;
+      }
+}
+
+  @media only screen and (max-width: 620px) {
+    .imagens-personagens {
+      width: 27rem;
+      height: 27rem;
+    }
+    .texto-personagens {
+        width:27rem;
+    }
+}
