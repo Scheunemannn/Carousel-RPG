@@ -238,3 +238,29 @@
 .personagens-personagens h2 {
   font-size: 2.5rem;
 }
+
+.personagens-containers{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.personagem-container-item{
+  width:17rem;
+  height: 17rem;
+  margin:2rem;
+  border-radius: 300rem;
+  border:1px solid rgba(228, 223, 223, 0.842);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pergonagem-container-image{
+  width: 19rem;
+  height: 19rem;
+  object-fit: contain;
+}
