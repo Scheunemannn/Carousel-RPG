@@ -42,12 +42,16 @@ const mudaPersonagem = () => {
         imagemPersonagem.src= "assets/zofia.png"
         nomePersonagem.innerText= "Zofia"
       }
+      else if (numeral == 20) {
+        imagemPersonagem.src= "assets/eugene.png"
+        nomePersonagem.innerText= "Eugene"
+      }
 };
 
 const acrescentar = () => {
   numeral++
   mudaPersonagem()
-  if (numeral == 20) {
+  if (numeral == 25) {
     numeral = 0;
   }
   console.log(numeral);
