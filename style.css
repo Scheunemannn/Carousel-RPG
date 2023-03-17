@@ -4,11 +4,10 @@
   margin: 0;
   padding: 0;
   list-style: none;
-
 }
 
 .navbarr a {
-  color:inherit;
+  color: inherit;
   text-decoration: none;
 }
 .navbarr {
@@ -32,7 +31,7 @@
   margin-left: 2rem;
   font-family: "Bona Nova", serif;
   text-decoration: none;
-  color:inherit;
+  color: inherit;
 }
 
 .navitem:hover {
@@ -67,15 +66,13 @@
 @media only screen and (max-width: 550px) {
   .botoes a {
     width: 10rem;
-    margin: 1rem
+    margin: 1rem;
   }
-
 }
 
 .personagens-principais {
   text-align: center;
   margin-bottom: 6rem;
-
 }
 
 .personagens-principais h2 {
@@ -87,11 +84,10 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-bottom:8rem;
+  margin-bottom: 1rem;
   flex-wrap: wrap;
 }
 .texto-personagens {
-  
   width: 36rem;
   height: 35rem;
   flex-direction: column;
@@ -122,7 +118,6 @@
     height: 35rem;
   }
   .texto-personagens {
-   
     width: 30rem;
     height: 30rem;
     flex-direction: column;
@@ -146,87 +141,81 @@
   }
 }
 
-
 .footer {
-  margin-top:10rem;
+  margin-top: 10rem;
 }
 
-.cidades h2{
+.cidades h2 {
   text-align: center;
-  margin-top:15rem;
-  margin-bottom:15rem;
-  font-size:2.5rem
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+  font-size: 2.5rem;
 }
 
-.container-city{
+.container-city {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
-  margin-bottom:7rem;
+  margin-bottom: 7rem;
 }
 
 .inverter {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-  }
-
-
-.container-city h2{
-  width:40vw;
-  height:10vh
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
 }
 
-.img-city{
+.container-city h2 {
+  width: 40vw;
+  height: 10vh;
+}
+
+.img-city {
   width: 50rem;
-  height:50rem;
+  height: 50rem;
   border-radius: 50rem;
-  
 }
 
 @media only screen and (max-width: 1333px) {
-  .inverter{
+  .inverter {
     flex-direction: column-reverse;
   }
-  
 }
 
 @media only screen and (max-width: 830px) {
-  .img-city{
+  .img-city {
     width: 40rem;
-    height:40rem;
+    height: 40rem;
   }
-  .inverter{
+  .inverter {
     flex-direction: column-reverse;
   }
-  
 }
 
 @media only screen and (max-width: 640px) {
-  .img-city{
+  .img-city {
     width: 28rem;
-    height:28rem;
+    height: 28rem;
   }
 
-  .inverter{
+  .inverter {
     flex-direction: column-reverse;
   }
 }
 
 @media only screen and (max-width: 460px) {
-  .img-city{
+  .img-city {
     width: 22rem;
-    height:22rem;
+    height: 22rem;
   }
-  .inverter{
+  .inverter {
     flex-direction: column-reverse;
   }
-  }
-
+}
 
 .personagens-personagens {
   display: flex;
@@ -239,7 +228,7 @@
   font-size: 2.5rem;
 }
 
-.personagens-containers{
+.personagens-containers {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -247,20 +236,42 @@
   max-width: 100%;
 }
 
-.personagem-container-item{
-  width:17rem;
+.personagem-container-item {
+  width: 17rem;
   height: 17rem;
-  margin:2rem;
+  margin: 2rem;
   border-radius: 300rem;
-  border:1px solid rgba(228, 223, 223, 0.842);
+  border: 1px solid rgb(228, 223, 223);
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
 
-.pergonagem-container-image{
+.personagem-container-item:hover {
+  border: 1px solid rgba(0, 0, 0, 0.322);
+}
+
+.pergonagem-container-image {
   width: 19rem;
   height: 19rem;
+  transition: 0.5s;
   object-fit: contain;
+}
+
+.pergonagem-container-image:hover {
+  width: 20rem;
+  height: 20rem;
+  object-fit: contain;
+  transition: 0.5s;
+}
+
+.botoes-personagens {
+  display: flex;
+  justify-content: center;
+}
+
+.personagens-botoes {
+  margin: 0px 0.4rem;
+  width: 10px;
 }
