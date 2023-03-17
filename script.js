@@ -54,3 +54,5 @@ const acrescentar = () => {
 };
 
 setInterval(acrescentar, 1000);
+
+
