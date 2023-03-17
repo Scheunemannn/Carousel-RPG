@@ -1,6 +1,6 @@
 * {
-  font-family: 'Bona Nova', serif;
-  font-family: 'Merriweather', serif;
+  font-family: "Bona Nova", serif;
+  font-family: "Merriweather", serif;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -11,107 +11,200 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 10px;
+  font-family: "Bona Nova", serif;
+}
 
+.navbarr h1 {
+  font-family: "Merriweather", serif;
 }
 
 .menuu {
   display: flex;
-  
 }
 
 .navitem {
-  margin-left:10px;
+  margin-left: 10px;
+  font-family: "Bona Nova", serif;
 }
 
 .carrossel-container {
-   display: flex;
+  display: flex;
   justify-content: center;
   flex-direction: column;
-  text-align: center; 
-  height:91vh;
-
-
+  text-align: center;
+  height: 98vh;
 }
 
 .carrossel-container h1 {
   font-size: 6rem;
-  font-family: 'Bona Nova';
+  font-family: "Bona Nova";
   font-style: italic;
-  
 }
 
 .carrossel-container h2 {
   font-size: 1.2rem;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-family: italic;
 }
 
+.botoes a {
+  width: 13rem;
+  margin: 2rem;
+}
 
+.personagens-principais {
+  text-align: center;
+  margin-bottom: 6rem;
+
+}
+
+.personagens-principais h2 {
+  font-size: 2.5rem;
+}
 
 .personagens-container-principal {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom:8rem;
+  flex-wrap: wrap;
+}
+.texto-personagens {
+  
+  width: 36rem;
+  height: 35rem;
+  flex-direction: column;
+}
 
-    flex-wrap: wrap;
+.imagens-personagens {
+  width: 55rem;
+  height: 55rem;
+  border: 1px solid rgba(207, 204, 1, 0.466);
+  border-radius: 500rem;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* transition:1s; */
+  margin-bottom: 1rem;
+}
+
+#personagens-jogadores {
+  width: 115%;
+  height: 115%;
+  object-fit: contain;
+}
+
+@media only screen and (max-height: 800px) {
+  .imagens-personagens {
+    width: 35rem;
+    height: 35rem;
   }
   .texto-personagens {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 36rem;
-    height: 35rem;
+   
+    width: 30rem;
+    height: 30rem;
     flex-direction: column;
   }
-  
-  .imagens-personagens {
-    width: 55rem;
-    height: 55rem;
-    border: 1px solid rgba(207, 204, 1, 0.466);
-    border-radius: 500rem;
-    padding: 20px;
+}
+
+@media only screen and (max-width: 620px) {
+  .personagens-container-principal {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    /* transition:1s; */
-    margin-bottom: 1rem;
+  }
+
+  .imagens-personagens {
+    width: 27rem;
+    height: 27rem;
+  }
+  .texto-personagens {
+    width: 27rem;
+    height: 27rem;
+  }
+}
+
+
+.footer {
+  margin-top:10rem;
+}
+
+.citys h2{
+  text-align: center;
+  margin-top:20rem;
+  margin-bottom:20rem;
+  font-size:2.5rem
+}
+
+.container-city{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  margin-bottom:7rem;
+}
+
+.inverter {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+
+
+.container-city h2{
+  width:40vw;
+  height:10vh
+}
+
+.img-city{
+  width: 50rem;
+  height:50rem;
+  border-radius: 50rem;
+  
+}
+
+@media only screen and (max-width: 1333px) {
+  .inverter{
+    flex-direction: column-reverse;
   }
   
-  #personagens-jogadores {
-    width: 115%;
-    height: 115%;
-    object-fit: contain;
+}
+
+@media only screen and (max-width: 830px) {
+  .img-city{
+    width: 40rem;
+    height:40rem;
+  }
+  .inverter{
+    flex-direction: column-reverse;
+  }
+  
+}
+
+@media only screen and (max-width: 640px) {
+  .img-city{
+    width: 28rem;
+    height:28rem;
   }
 
-  @media only screen and (max-height:800px) {
-    .imagens-personagens {
-        width: 35rem;
-        height: 35rem;
-    }
-    .texto-personagens {
-        display: flex;
-        align-items: center;
-        width: 30rem;
-        height: 30rem;
-        flex-direction: column;
-      }
+  .inverter{
+    flex-direction: column-reverse;
+  }
 }
 
-  @media only screen and (max-width: 620px) {
-    .personagens-container-principal {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    }
-    
-    
-    .imagens-personagens {
-      width: 27rem;
-      height: 27rem;
-    }
-    .texto-personagens {
-        width:27rem;
-        height: 27rem
-    }
-}
+@media only screen and (max-width: 460px) {
+  .img-city{
+    width: 22rem;
+    height:22rem;
+  }
+  .inverter{
+    flex-direction: column-reverse;
+  }
+  }
+
+

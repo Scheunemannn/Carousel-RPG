@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,48 +17,77 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Merriweather:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
     <header>
-        <nav class="navbarr">
-            <h1>RPG</h1>
-            <ul class="menuu">
-                <li class="navitem">Personagens</li>
-                <li class="navitem">Criaturas</li>
-                <li class="navitem">Cidades</li>
-            </ul>
-            
-        </nav>
+      <nav class="navbarr">
+        <h1>RPG</h1>
+        <ul class="menuu">
+          <li class="navitem">Personagens</li>
+          <li class="navitem">Criaturas</li>
+          <li class="navitem">Cidades</li>
+        </ul>
+      </nav>
     </header>
 
-   <div class="carrossel-container">
-    <h1>Barões da Pólvora</h1>
-    <h2>Primeira sessão da nova campanhaem breve...</h2>
-   </div>
+    <div class="carrossel-container">
+      <h1>Barões da Pólvora</h1>
+      <h2>Primeira sessão da nova campanha em breve...</h2>
+      <div class="botoes">
+        <a class="btn btn-secondary" href="#">Saiba mais</a>
+        <a class="btn btn-secondary" href="#">Outros</a>
+      </div>
+    </div>
 
+    <section>
+      <div class="personagens-principais">
+        <h2>Personagens Principais</h2>
+      </div>
+    </section>
     <section class="personagens-container-principal">
-        <div id="bordas-personagens" class="imagens-personagens">
-          <img id="personagens-jogadores" src="assets/maria.png" alt="" />
-        </div>
-        <div class="texto-personagens">
-          <h1 id="titulo-personagem">Maria</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quaerat
-            delectus fugiat itaque recusandae beatae dicta dolor quis eius sequi.
-            Voluptatem, soluta dicta? Nobis, exercitationem. Culpa mollitia magni
-            harum iusto?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-            recusandae suscipit facere accusamus aliquid voluptas qui perspiciatis
-            expedita ea minima?
-          </p>
-          <a type="button" class="btn btn-warning">Saiba mais</a>
-        </div>
-      </section>
-</body>
-<script src="script.js"></script>
+      <div id="bordas-personagens" class="imagens-personagens">
+        <img id="personagens-jogadores" src="assets/maria.png" alt="" />
+      </div>
+      <div class="texto-personagens">
+        <h1 id="titulo-personagem" class="text-warning">Maria</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quaerat
+          delectus fugiat itaque recusandae beatae dicta dolor quis eius sequi.
+          Voluptatem, soluta dicta? Nobis, exercitationem. Culpa mollitia magni
+          harum iusto?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+          recusandae suscipit facere accusamus aliquid voluptas qui perspiciatis
+          expedita ea minima?
+        </p>
+        <a type="button" class="btn btn-warning">Saiba mais</a>
+      </div>
+    </section>
+
+    <section class="citys">
+      <h2>Principais Cidades</h2>
+      <div class="container-city">
+        <h2 class="title-city">Little Garden</h2>
+        <img class="img-city" src="assets/city1.png" alt="" />
+      </div>
+      <div class="container-city inverter">
+        <img class="img-city" src="assets/city2.png" alt="" />
+        <h2 class="title-city">Gondolin</h2>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <hr />
+      <h4>Scheunemann</h4>
+    </footer>
+  </body>
+  <script src="script.js"></script>
 </html>
