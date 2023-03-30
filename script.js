@@ -49,6 +49,8 @@ const mudabotao5 = () => {
   numeral = 19
 }
 
+
+
 const mudaPersonagem = () => {
     if (numeral == 1) {
         imagemPersonagem.src= "assets/maria.png"
@@ -76,6 +78,8 @@ const mudaPersonagem = () => {
         texto1.innerHTML= 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit deleniti in adipisci error qui dolores, voluptatum molestias iure accusantium commodi quis placeat rerum ullam esse, temporibus numquam! <br> <br> Ipsa veniam atque, provident ducimus quaerat in sed explicabo facere! Dolor totam rem cumque blanditiis, eveniet repellendus error maiores dignissimos? Iusto doloribus ea necessitatibus dicta omnis at nam tenetur, cum incidunt voluptate?'
       }
 };
+
+
 
 const acrescentar = () => {
   numeral++

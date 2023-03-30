@@ -26,23 +26,25 @@
   </head>
 
   <body>
-    <header>
-      <nav class="navbarr">
-        <a href="index.html"><h1>RPG</h1></a>
-        <ul class="menuu">
-          <a href="personagens.html" class="navitem">Personagens</a>
-          <a href="#" class="navitem">Cidades</a>
-          <a href="#" class="navitem">Itens</a>
-        </ul>
-      </nav>
-    </header>
+    <div class="backdiv">
+      <header>
+        <nav class="navbarr">
+          <a href="index.html"><h1>RPG</h1></a>
+          <ul class="menuu">
+            <a href="personagens.html" class="navitem">Personagens</a>
+            <!-- <a href="#" class="navitem">Cidades</a>
+            <a href="#" class="navitem">Itens</a> a-->
+          </ul>
+        </nav>
+      </header>
 
-    <div class="carrossel-container">
-      <h1>Barões da Pólvora</h1>
-      <h2>Primeira sessão da nova campanha em breve...</h2>
-      <div class="botoes">
-        <a class="btn btn-secondary" href="#">Saiba mais</a>
-        <a class="btn btn-secondary" href="#">Outros</a>
+      <div class="carrossel-container">
+        <h1>Barões da Pólvora</h1>
+        <!-- <h2>Primeira sessão da nova campanha em breve...</h2> -->
+        <div class="botoes">
+          <!-- <a class="btn btn-secondary" href="personagens.html">Saiba mais</a>
+          <a class="btn btn-secondary" href="personagens.html">Outros</a> -->
+        </div>
       </div>
     </div>
 
@@ -58,9 +60,23 @@
       <div class="texto-personagens">
         <h1 id="titulo-personagem" class="text-warning">Maria</h1>
         <p id="texto1">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, temporibus! Reiciendis explicabo labore minus ab temporibus laborum quasi saepe ducimus numquam beatae aliquid recusandae perspiciatis nulla animi debitis laudantium, aliquam sequi illo. <br> <br> Neque quod consequatur porro quos cumque voluptatem eaque numquam non? Quisquam, aspernatur blanditiis? Laboriosam dolores incidunt vero sunt dolorem ducimus eligendi ullam vitae.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum,
+          temporibus! Reiciendis explicabo labore minus ab temporibus laborum
+          quasi saepe ducimus numquam beatae aliquid recusandae perspiciatis
+          nulla animi debitis laudantium, aliquam sequi illo. <br />
+          <br />
+          Neque quod consequatur porro quos cumque voluptatem eaque numquam non?
+          Quisquam, aspernatur blanditiis? Laboriosam dolores incidunt vero sunt
+          dolorem ducimus eligendi ullam vitae.
         </p>
-        <a id="link-page" href="#fuder" type="button" class="btn btn-warning">Saiba mais</a>
+        <a
+          onclick="criaPaginaThorin()"
+          id="link-page"
+          href="charinfo.html"
+          type="button"
+          class="btn btn-warning"
+          >Saiba mais</a
+        >
       </div>
     </section>
     <section class="botoes-personagens">

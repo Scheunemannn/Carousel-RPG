@@ -6,6 +6,11 @@
   list-style: none;
 }
 
+.backdiv {
+  background-image: url(assets/smoke.jpg);
+  background-size: cover;
+}
+
 .navbarr a {
   color: inherit;
   text-decoration: none;
@@ -14,12 +19,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 10px;
-  font-family: "Bona Nova", serif;
+  height:5rem;
+  font-family: "Bona Nova";
+  color: white;
+  text-shadow: rgba(255, 255, 255, 0.315) 0.1em 0.1em 0.2em;
+
 }
 
 .navbarr h1 {
   font-family: "Merriweather", serif;
+  margin-left: 2rem;
 }
 
 .menuu {
@@ -44,23 +53,31 @@
   flex-direction: column;
   text-align: center;
   height: 98vh;
+  
+  color:white;
+  
 }
 
 .carrossel-container h1 {
   font-size: 6rem;
   font-family: "Bona Nova";
   font-style: italic;
+  text-shadow: rgba(255, 255, 255, 0.315) 0.1em 0.1em 0.2em;
 }
 
 .carrossel-container h2 {
   font-size: 1.2rem;
   font-family: "Merriweather", serif;
   font-family: italic;
+  text-shadow: rgba(255, 255, 255, 0.315) 0.1em 0.1em 0.2em;
+
 }
 
 .botoes a {
   width: 13rem;
   margin: 2rem;
+  text-shadow: black 0.1em 0.1em 0.2em;
+
 }
 
 @media only screen and (max-width: 550px) {
@@ -68,15 +85,28 @@
     width: 10rem;
     margin: 1rem;
   }
+  .carrossel-container h1{
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+  }
+  .carrossel-container h2 {
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+  }
 }
 
 .personagens-principais {
   text-align: center;
   margin-bottom: 6rem;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 53%, rgba(210,210,210,1) 100%);
+  height: 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .personagens-principais h2 {
   font-size: 2.5rem;
+  
 }
 
 .personagens-container-principal {
@@ -86,6 +116,7 @@
   align-items: center;
   margin-bottom: 1rem;
   flex-wrap: wrap;
+  
 }
 .texto-personagens {
   width: 36rem;
